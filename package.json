@@ -1,0 +1,32 @@
+{
+  "name": "@owodunni/lens",
+  "version": "0.1.0",
+  "description": "Lens protocol playground",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owodunni/lens.git"
+  },
+  "keywords": [],
+  "author": "Alexander Poole Jardèn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owodunni/lens/issues"
+  },
+  "homepage": "https://github.com/owodunni/lens#readme",
+  "dependencies": {
+    "@owodunni/ethscan": "^0.2.5",
+    "docopt": "^0.6.2",
+    "dotenv": "^16.0.0",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "prettier --list-different 'src/*.{js,jsx,ts,tsx}' '*.{js,json}'",
+    "fix": "prettier --write 'src/*.{js,jsx,ts,tsx}' '*.{js,json}'"
+  }
+}

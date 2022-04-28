@@ -18,7 +18,7 @@
     "@owodunni/ethscan": "^0.2.5",
     "docopt": "^0.6.2",
     "dotenv": "^16.0.0",
-    "web3": "^1.7.3"
+    "ethers": "^5.6.2"
   },
   "devDependencies": {
     "jest": "^27.5.1",
